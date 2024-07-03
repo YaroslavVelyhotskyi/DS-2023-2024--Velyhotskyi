@@ -1,0 +1,79 @@
+{
+    "form":"rectangle",
+    "maze":[
+        {"tipo":"room","num":1,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":2,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":3,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":4,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":5,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":6,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":7,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":8,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":9,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":10,"hijos":[
+            {"tipo":"bomb"}
+        ]}
+    ],
+    "doors":[
+        [1,"East",2,"West","normal"],
+        [2,"East",3,"West","spiked"],
+        [3,"South",4,"North","normal"],
+        [4,"West",5,"East","normal"],
+        [5,"West",6,"East","normal"],
+        [6,"South",7,"North","normal"],
+        [7,"East",8,"West","normal"],
+        [8,"East",9,"West","spiked"],
+        [9,"East",10,"West","normal"],
+        [8,"North",5,"South","normal"],
+        [6,"North",1,"South","normal"]
+    ],
+    "beasts":[
+        {"modo":"Lazy","posicion":3},{"modo":"Fat","posicion":8},{"modo":"Aggressive","posicion":5}, {"modo":"Lazy","posicion":6},{"modo":"Healer","posicion":7}
+    ],
+    "bonuses": [
+    {
+      "tipo": "HP",
+      "valor": 10,
+      "posicion": 2
+    },
+    {
+      "tipo": "Power",
+      "valor": 2,
+      "posicion": 4
+    }
+    ],
+    "traps": [
+    {
+        "damage": 5,
+        "posicion": 9
+    }
+    ],
+    "floorHoles": [
+    {
+        "damage": 2,
+        "posicion": 10
+    }
+    ],
+     "character_type": "titan"
+}
+
+
+

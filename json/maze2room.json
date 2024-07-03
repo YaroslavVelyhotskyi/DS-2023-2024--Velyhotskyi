@@ -1,0 +1,19 @@
+{
+    "form":"rectangle",
+    "maze":[
+        {"tipo":"room","num":1,"hijos":[
+            {"tipo":"bomb"}
+        ]},
+        {"tipo":"room","num":2,"hijos":[
+            {"tipo":"bomb"}
+        ]}
+        
+    ],
+    "doors":[
+        [1,"South",2,"North"]
+    ],
+    "beasts":[
+        {"modo":"Aggressive","posicion":1},{"modo":"Lazy","posicion":2}
+    ]
+}
+
